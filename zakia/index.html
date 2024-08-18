@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Letter Demo</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+	<link href="https://fonts.googleapis.com/css?family=Baloo+2:400,800&display=swap" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./mystyle.css">
+<link rel="stylesheet" href="./style.css">
+
+
+	<style>
+		
+	</style>
+
+
+
+</head>
+<body>
+<div class="pageContainer">
+	<section class="page red" >
+
+		<div class="welcomecard">
+			<p>!أهلا
+				<Br/>		
+				<img src="img/heart.svg" width="72px" alt="">
+				زكية
+				</p>
+		</div>
+
+	</section>
+
+	<section class="page green" >
+	
+		<div class="hisbody">
+			<div class="container">
+				<div class="envelope-wrapper">
+					<div class="envelope">
+						<div class="letter">
+							<div class="text">
+								<strong>
+									،حبيبتي الغالية
+								</strong>
+								<p>
+								
+									.دمتي لي أحلى و أغلى رفيقة، أنيستي الحنونة اللي ما منها إثنين 
+									 .حلمي و أماني، صديقتي و حبيبة قلبي 
+									 <br/>
+									
+									 
+								</p>
+
+							</div>
+							<b style="text-align: center;font-size: 72;">🧡</b>
+						</div>
+					</div>
+					<div class="heart"></div>
+				</div>
+			</div>
+
+		</div>
+
+
+	</section>
+
+	<section class="page black" >		
+		<div class="background-container">
+			<img class="background" src="img/1.png" alt="">
+		</div>
+	</section>
+
+	<section class="page black" >
+		<div class="background-container">
+			<img class="background" src="img/2.png" alt="">
+		</div>
+	</section>
+
+</div>
+
+<script>
+	const envelope = document.querySelector('.envelope-wrapper');
+	envelope.addEventListener('click', () => {
+		envelope.classList.toggle('flap');
+	});
+</script>
+
+</body>
+</html>
